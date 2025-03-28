@@ -1,0 +1,5 @@
+#    Disable or enable nametags for the traders
+wandering_traders_nametag (Nametags) bool false
+
+#    Disable or enable dialogs of the traders
+wandering_traders_dialogs (Dialogs) bool false
