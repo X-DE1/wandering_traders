@@ -2,7 +2,7 @@
 
 Adds wandering traders that you can breed with food.
 
-Wandering traders was created with code from [mobs_npc](https://codeberg.org/tenplus1/mobs_npc)
+Wandering traders was created with code and media from [mobs_npc](https://codeberg.org/tenplus1/mobs_npc)
 
 ## Installation
 
