@@ -262,8 +262,8 @@ mobs:register_egg("wandering_traders:trader", S("Trader"),
 -- compatibility with older mobs mod
 mobs:alias_mob("mobs:trader", "wandering_traders:trader")
 
-wandering_traders.add_trade = function(def)
-	table.insert(mobs.human, def)
+wandering_traders.add_to_traders = function(index, def)
+	table.insert(mobs.human[index], def)
 end
 
 --Spawn
