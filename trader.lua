@@ -262,29 +262,9 @@ mobs:register_egg("wandering_traders:trader", S("Trader"),
 -- compatibility with older mobs mod
 mobs:alias_mob("mobs:trader", "wandering_traders:trader")
 
--- make global and add functions and list
-
-local trader_lists = {}
-
-wandering_traders.add_trader_list = function(def)
-	table.insert(trader_lists, def)
+wandering_traders.add_trade = function(def)
+	table.insert(mobs.human, def)
 end
-
-wandering_traders.add_trader_list({
-	block = mcl and "mcl_core:ironblock" or "default:tinblock",
-	nametag = "Avery",
-	textures = {"mobs_trader2.png"},
-	item_list = {
-		{mcl and "mcl_raw_ores:raw_gold 2" or "default:gold_lump 2",
-				mcl and "mcl_core:gold_ingot 3" or "default:gold_ingot 3"},
-		{mcl and "mcl_raw_ores:raw_iron 2" or "default:iron_lump 2",
-				mcl and "mcl_core:iron_ingot 2" or "default:steel_ingot 2"},
-		{mcl and "mcl_copper:raw_copper 2" or "default:copper_lump 2",
-				mcl and "mcl_copper:copper_ingot 3" or "default:copper_ingot 3"},
-		{mcl and "mcl_core:iron_nugget 2" or "default:tin_lump 2",
-				mcl and "mcl_core:iron_ingot 3" or "default:tin_ingot 3"}
-	}
-})
 
 --Spawn
 if not mobs.custom_spawn_monster then
