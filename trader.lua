@@ -24,10 +24,6 @@ mobs.human = {
 				mcl and "mcl_core:gold_ingot 4" or "default:gold_ingot 4", 17},
 		{mcl and "mcl_core:glass 10" or "default:glass 10",
 				mcl and "mcl_core:gold_ingot 4" or "default:gold_ingot 4", 17},
-		{mcl and "mcl_core:obsidian 10" or "default:obsidian 10",
-				mcl and "mcl_core:gold_ingot 15" or "default:gold_ingot 15", 50},
-		{mcl and "mcl_core:diamond 1" or "default:diamond 1",
-				mcl and "mcl_core:gold_ingot 5" or "default:gold_ingot 5", 40},
 		{mcl and "mcl_farming:wheat_item 10" or "farming:wheat 10",
 				mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2", 17},
 		{mcl and "mcl_core:tree 5" or "default:tree 5",
@@ -38,12 +34,6 @@ mobs.human = {
 				mcl and "mcl_core:gold_ingot 8" or "default:gold_ingot 8", 27},
 		{mcl and "mcl_core:sapling 1" or "default:sapling 1",
 				mcl and "mcl_core:gold_ingot 1" or "default:gold_ingot 1", 7},
-		{mcl and "mcl_tools:pick_iron 1" or "default:pick_steel 1",
-				mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2", 7},
-		{mcl and "mcl_tools:sword_iron 1" or "default:sword_steel 1",
-				mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2", 17},
-		{mcl and "mcl_tools:shovel_iron 1" or "default:shovel_steel 1",
-				mcl and "mcl_core:gold_ingot 1" or "default:gold_ingot 1", 17},
 		{mcl and "mcl_core:cactus 2" or "default:cactus 2",
 				mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2", 40},
 		{mcl and "mcl_core:paper 2" or "default:papyrus 2",
@@ -117,7 +107,32 @@ mobs.human = {
 			mcl and "mcl_core:gold_ingot 5" or "default:gold_ingot 5",
 			mcl and "mcl_copper:raw_copper 1" or "default:mese_crystal_fragment 1",
 			90
-		}
+		},
+				{
+			mcl and "mcl_core:gold_ingot 15" or "default:gold_ingot 15",
+			mcl and "mcl_core:obsidian 10" or "default:obsidian 10",
+			50
+		},
+		{
+			mcl and "mcl_core:gold_ingot 5" or "default:gold_ingot 5",
+			mcl and "mcl_core:diamond 1" or "default:diamond 1",
+			40
+		},
+		{
+			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
+			mcl and "mcl_tools:pick_iron 1" or "default:pick_steel 1",
+			7
+		},
+		{
+			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
+			mcl and "mcl_tools:sword_iron 1" or "default:sword_steel 1",
+			17
+		},
+		{
+			mcl and "mcl_core:gold_ingot 1" or "default:gold_ingot 1",
+			mcl and "mcl_tools:shovel_iron 1" or "default:shovel_steel 1",
+			17
+		},
 	}
 }
 
