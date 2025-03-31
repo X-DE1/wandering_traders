@@ -79,16 +79,6 @@ mobs.human = {
 			17
 		},
 		{
-			mcl and "mcl_core:gold_ingot 15" or "default:gold_ingot 15",
-			mcl and "mcl_core:obsidian 10" or "default:obsidian 10",
-			50
-		},
-		{
-			mcl and "mcl_core:gold_ingot 5" or "default:gold_ingot 5",
-			mcl and "mcl_core:diamond 1" or "default:diamond 1",
-			40
-		},
-		{
 			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
 			mcl and "mcl_farming:wheat_item 10" or "farming:wheat 10",
 			17
@@ -112,21 +102,6 @@ mobs.human = {
 			mcl and "mcl_core:gold_ingot 1" or "default:gold_ingot 1",
 			mcl and "mcl_core:sapling 1" or "default:sapling 1",
 			7
-		},
-		{
-			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
-			mcl and "mcl_tools:pick_iron 1" or "default:pick_steel 1",
-			7
-		},
-		{
-			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
-			mcl and "mcl_tools:sword_iron 1" or "default:sword_steel 1",
-			17
-		},
-		{
-			mcl and "mcl_core:gold_ingot 1" or "default:gold_ingot 1",
-			mcl and "mcl_tools:shovel_iron 1" or "default:shovel_steel 1",
-			17
 		},
 		{
 			mcl and "mcl_core:gold_ingot 2" or "default:gold_ingot 2",
