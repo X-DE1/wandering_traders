@@ -263,7 +263,7 @@ if not mobs.custom_spawn_monster then
 		nodes = {mcl and "mcl_core:stonebrick" or "group:grass"},
 		min_light = 10,
 		interval = 60,
-		chance = 6000,
+		chance = 10000,
 		min_height = 0,
 		max_height = 300,
 		day_toggle = true
