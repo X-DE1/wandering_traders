@@ -178,7 +178,7 @@ mobs:register_mob("wandering_traders:trader", {
 		{name = mcl and "mcl_core:apple" or "default:apple", chance = 2, min = 1, max = 2},
 		{name = mcl and "mcl_tools:axe_stone" or "default:axe_stone", chance = 5, min = 1, max = 1}
 	},
-	water_damage = 0,
+	water_damage = 0.01,
 	lava_damage = 4,
 	light_damage = 0,
 	follow = {
