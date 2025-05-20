@@ -140,7 +140,7 @@ mobs.human = {
 
 mobs:register_mob("wandering_traders:trader", {
 	type = "npc",
-	passive = false,
+	passive = true,
 	damage = 3,
 	attack_type = "dogfight",
 	attack_monsters = true,
